@@ -1,4 +1,4 @@
- :root {
+  :root {
     --main-white: #f0f0f0;
     --main-red: #be3144;
     --main-blue: #45567d;
@@ -83,15 +83,46 @@ h1, h2 {
   flex-direction: row;
   justify-content: space-evenly;
 
-
 }
 
-.project-container{
+.project-container-1{
   width: 550px;
-  height: 600px;
-  margin-bottom: -1px;
-} 
+  height: 550px;
+  margin-bottom: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+ } 
+ .project-container-2{
+  width: 550px;
+  height: 550px;
+  margin-bottom: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+ } 
 
+ .project-container-3{
+  width: 550px;
+  height: 550px;
+  margin-top: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+ } 
+
+ .project-container-4{
+  width: 550px;
+  height: 550px;
+  margin-top: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+ } 
 
 .projects-section-header {
     max-width: 640px;
@@ -108,7 +139,8 @@ h2 {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
-    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;  
 }
 .project-title{
   padding-top: 17px;
@@ -120,6 +152,7 @@ h2 {
     height: 72px;
     margin-top: -17px; 
     justify-content: center;
+   
 }
 
 #about {
@@ -153,11 +186,62 @@ body {
   font-size: 4.4rem;
 }
 
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
+@media   (min-width: 280px) and (max-width: 1050px){
+  .flex{
+    display: flex;
+    flex-direction :  column;
+    align-items: center;
   }
+
+  .project-container-1{
+    width: 900px;
+    height: 550px;
+  margin-bottom: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+  } 
+
+  .project-container-2{
+    width: 900px;
+    height: 550px;
+  margin-bottom: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+  } 
+
+  .project-container-3{
+    width: 900px;
+    height: 550px;
+  margin-bottom: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+  } 
+
+  .project-container-4{
+    width: 900px;
+    height: 550px;
+  margin-bottom: 40px;
+  background-color: #1f1f1f;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 10px 10px 20px black;
+  } 
+
+  .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;   
 }
+}
+
 
 .contact-section-header > p {
   font-style: italic;
